@@ -51,14 +51,19 @@ This project provides a RESTful API for object detection using a TensorFlow Lite
 ## Project Structure
 
 ```plaintext
-.
-├── app.py                      # Flask API script
+/path/to/your/project/directory
+├── README.md
+├── TFLite_detection_image.py
+├── .gitignore
+├── app.py
 ├── models
-│       ├── detect.tflite       # TFLite model file
-│       └── labelmap.txt        # Label map file
-├── uploads                     # Directory to save uploaded images (created automatically)
-├── requirements.txt            # List of required Python packages
-└── venv                        # Virtual environment directory
+│   └── custom_model_lite
+│       ├── detect.tflite
+│       └── labelmap.txt
+├── uploads
+├── requirements.txt
+└── [other project files and directories like venv]
+
 ```
 ## Running the Application
 1. **Activate the Virtual Environment:**
